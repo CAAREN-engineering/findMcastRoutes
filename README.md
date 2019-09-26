@@ -12,8 +12,11 @@ optional arguments:
                   (default is 9)
 ```
 
-Outputs two files- a CSV of all the data gathered, and an m3u playlist of AMT URIs
+Outputs two files-
+ - a CSV of all the data gathered
+ - an m3u playlist of AMT URIs
 
 ## Notes
 Needs work to deduplicate entries
+
 Would be nice to get information about source addr (hostname / whois)
