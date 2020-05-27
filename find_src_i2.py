@@ -23,7 +23,7 @@ from prettytable import PrettyTable
 
 parser = ArgumentParser(description="Query I2 router proxy for active multicast routes", formatter_class=RawTextHelpFormatter)
 
-parser.add_argument("-c", "--cutoff", action='store', default=9, metavar="",
+parser.add_argument("-c", "--cutoff", action='store', type=int, default=9, metavar="",
                     help="minimum number of pps to be included in report\n(default is 9)")
 
 args = parser.parse_args()
